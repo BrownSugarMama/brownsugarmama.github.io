@@ -1,0 +1,21 @@
+/**Color**/
+.fixedSidebar .widget ul li a:hover, .fixedSidebar .widget .firstPopularPost h3 a:hover, .fixedSidebar .widget .widPopPost h3 a:hover,
+.mainMenu ul li a:hover, .mainMenu ul li.active a, .accessMenu a, .socialMenu a, .footerMenu ul li a:hover, .footerMenu ul li.active a, 
+.copyRights a:hover, .skills span, .resumeHeader i, .singleBlog2 h4 a:hover, .singleBlog2 .sbCats, .singleBlog2 .sbCats a, .sbFooter a:hover,
+.singleHeader .cats, .singleHeader .cats a, .authInfo a:hover, .singleInfos a:hover, .relatedBlog .sbHeader h1 a:hover, .relatedBlog .sbCats,
+.relatedBlog .sbCats a, .relatedBlog .sbFooter a:hover, .comDetailsa span, .comDetailsa h3 a, .consNotice i, a
+{
+    color: #fa922c;
+}
+
+/**Background HEX**/
+.fixedSidebar .widgetTitle:after, .accessMenu a.settings span, .sliderElement p, .singleService i, .singleInt:hover, .comDetailsa h3 a:hover:before
+{
+    background: #fa922c;
+}
+
+/**Border Color**/
+.contactForm input[type="text"].reqError, .contactForm input[type="email"].reqError, .contactForm textarea.reqError
+{
+    border-color: #fa922c;
+}

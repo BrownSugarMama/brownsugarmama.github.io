@@ -1,0 +1,184 @@
+/*
+  Theme Name: MYSELF - HTML5 responsive VCard Template
+  Theme URL:  http://themewar.com/html/myself
+  Author: ThemeWar
+  Author URI: http://themewar.com
+  Description: HTML5 responsive VCard Template
+  Version: 1.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+[01] Fonts
+[02] Basic Style
+[03] Button Style
+[04] Section SetUp
+[05] Padding SetUp
+==========================================================================*/
+
+
+/*=======================================================================
+// [01] Fonts
+=========================================================================*/
+@import url(https://fonts.googleapis.com/css?family=Sonsie+One);
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+
+/*=======================================================================
+// [02] Basic Style
+=========================================================================*/
+body{
+    color: #a8a8a8;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.26px;
+    line-height: 1.661;
+    font-family: "Poppins",sans-serif;
+    padding: 0;
+    margin: 0;
+    word-break: break-all;
+}
+a{
+    color: #f23030;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+}
+a:hover{
+    text-decoration: none;
+    color: #FC6F5C;
+}
+a:focus{
+    outline: 0;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: .8;
+    font-weight: 700;
+    color: #202020;
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+/*=======================================================================
+// [03] Button Style
+=========================================================================*/
+.ms_btn{
+    border: 2px solid #ededed;
+    color: #202020;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 14px 30px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+    height: 50px;
+}
+.ms_btn i{
+    margin-left: 10px;
+}
+.ms_btn::after {
+    background: #000 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 101%;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    width: 100%;
+    z-index: -1;
+}
+.ms_btn:focus{
+    color: #202020;
+}
+.ms_btn:hover{
+    border-color: #000;
+    color: #FFF;
+}
+.ms_btn:hover::after{
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+
+
+/*=======================================================================
+// [04] Section SetUp
+=========================================================================*/
+
+.comonSections{
+    width: 100%;
+    padding: 0;
+    height: 619px;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    outline-width: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 180px;
+    transition: opacity 0.3s ease 0s;
+    visibility: hidden;
+    z-index: -1;
+}
+.comonSections.active{
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+}
+.sectionTitle{
+    position: relative;
+    margin-bottom: 50px;
+}
+.sectionTitle h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: #202020;
+    margin: -5px 0 12px;
+    font-weight: 300;
+    word-break: normal;
+    font-family: "Poppins",sans-serif;
+}
+.sectionTitle h2 span{
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+.intro{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+    padding-bottom: 0;
+}
+
+
+/*=======================================================================
+// [05] Padding SetUp
+=========================================================================*/
+.noPadding{
+    padding: 0 !Important;
+}
+.noMarginBottom{
+    margin-bottom: 0px !important;
+}
+.noMarginRight{
+    margin-right: 0px !important;
+}

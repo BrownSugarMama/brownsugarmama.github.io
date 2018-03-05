@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MYSELF - HTML5 responsive VCard Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Include All CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+        <link rel="stylesheet" type="text/css" href="css/Interest.css"/>
+        <link rel="stylesheet" type="text/css" href="css/rt_icons.css"/>
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
+        <link rel="stylesheet" type="text/css" href="css/owl.theme.css"/>
+        <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css"/>
+        <link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
+        <link rel="stylesheet" type="text/css" href="css/preset.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+        <link rel="stylesheet" type="text/css"  href="css/lay_colors/color1.css" id="colorChem">
+        <!-- End Include All CSS -->
+
+        <!-- Favicon Icon -->
+        <link rel="icon"  type="image/png" href="images/favicon.png">
+        <!-- Favicon Icon -->
+
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]--> 
+    </head>
+    <body class="single-post">
+
+        <div class="body_wraper">
+            <div class="preloader">
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="loaderImg">
+                    <img src="images/loader.gif" alt="">
+                </div>
+            </div>
+
+            <div class="searchBar">
+                <form method="post" action="#">
+                    <input type="text" placeholder="Search" name="s" id="s"/> 
+                </form>
+            </div>
+            <div class="fixedSidebar">
+                <aside class="widget widget_categories">
+                    <h3 class="widgetTitle">Categories</h3>
+                    <ul>
+                        <li><a href="#">HTML and CSS</a> <span>( 10 )</span></li>
+                        <li><a href="#">Web Design</a> <span>( 51 )</span></li>
+                        <li><a href="#">Marketing</a> <span>( 23 )</span></li>
+                        <li><a href="#">Javascript</a> <span>( 10 )</span></li>
+                        <li><a href="#">Productivity</a> <span>( 16 )</span></li>
+                    </ul>
+                </aside>
+                <aside class="widget widget_categories">
+                    <h3 class="widgetTitle">Instagram</h3>
+                    <div class="instaFeed">
+                        <a href="#"><img src="images/widget/i1.jpg" alt="">
+                        </a><a href="#"><img src="images/widget/i2.jpg" alt="">
+                        </a><a href="#" class="noMarginRight"><img src="images/widget/i3.jpg" alt="">
+                        </a><a href="#" class="noMarginBottom"><img src="images/widget/i4.jpg" alt="">
+                        </a><a href="#" class="noMarginBottom"><img src="images/widget/i5.jpg" alt="">
+                        </a><a href="#" class="noMarginBottom"><img src="images/widget/i6.jpg" alt=""></a>
+                    </div>
+                </aside>
+                <aside class="widget widget_categories">
+                    <h3 class="widgetTitle">Popular Posts</h3>
+                    <div class="popularPost">
+                        <div class="firstPopularPost">
+                            <img src="images/widget/p1.jpg" alt="">
+                            <h3><a href="#">Cras mattis consectletur purufermentum Porta Ridiculus.</a></h3>
+                            <p>March / 17 / 2016</p>
+                        </div>
+                        <div class="widPopPost">
+                            <img src="images/widget/p2.jpg" alt="">
+                            <h3><a href="#">Pellentesque Elit Cursusda Ullamcorper</a></h3>
+                            <p>March / 05 / 2016</p>
+                        </div>
+                        <div class="widPopPost noMarginBottom">
+                            <img src="images/widget/p3.jpg" alt="">
+                            <h3><a href="#">Pharetra Porta Sollicitudin Sem</a></h3>
+                            <p>March / 02 / 2016</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <header class="header" id="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="logo">
+                                <a href="index.html">MySelf</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <nav class="mainMenu">
+                                <div class="mobileMenu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <ul>
+                                    <li class="active"><a class="scroll" href="index.html#home" data-section="home">Home</a></li>
+                                    <li><a class="scroll" href="index.html#about" data-section="about">about</a></li>
+                                    <li><a class="scroll" href="index.html#resume" data-section="resume">resume</a></li>
+                                    <li><a class="scroll" href="index.html#portfolio" data-section="portfolio">portfolio</a></li>
+                                    <li><a class="scroll" href="index.html#blog" data-section="blog">blog</a></li>
+                                    <li><a class="scroll" href="index.html#contact" data-section="contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="accessMenu">
+                                <a href="#" id="searchGen"><i class="rt_icon-search5"></i></a>
+                                <a href="#" class="settings sidebarToggle"><span></span><span></span><span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="sections">
+                <section class="singleBlogPageHeader overlays" style="background: url(images/singleblog.jpg) no-repeat scroll center center/cover">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="singleHeader text-center">
+                                    <h2>The Things we Lost in the Fire</h2>
+                                    <div class="cats"><a href="#">Web Design</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="singleInfoblog">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 col-xs-12">
+                                    <div class="authInfo">
+                                        <img src="images/blog/co1.png" alt=""/>
+                                        By
+                                        <a href="#">John Doe</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-xs-12 pull-right">
+                                    <div class="singleInfos">
+                                        <a href="#"><i class="rt_icon-calendar3"></i>07 May</a>
+                                        <a href="#"><i class="rt_icon-clock4"></i>03 min read</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="singleBlogDetailsSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="blogArticels">
+                                    <p class="excerpts">
+                                        Conscience is the inner perception of objections to definite wish impulses 
+                                        that exist in us; but the emphasis is put upon the fact that this rejection
+                                        does not have to depend on anything else, that it is sure of itself.
+                                    </p>
+                                    <div class="details">
+                                        <p>
+                                            Everti doctus est et, ei vis habemus tibique. Scriptorem theophrastus in sit. 
+                                            Stet gubergren ex per, denique consetetur cotidieque ad nec. Ex usu ullamcorper
+                                            definitionem, ipsum munere complectitur cum cu, no eam quod 
+                                            mnesarchum omittantur. Eu liber dictas noluisse nam, ius ut ferri tibique.
+                                            No tota integre duo, cu usu adhuc quidam.
+                                        </p>
+                                        <p>
+                                            Elit facer constituto ex vis, te vide perpetua rationibus nec. Nec iriure 
+                                            commune fastidii ei, ius erat suscipit inimicus te, nec ei enim mucius. 
+                                            His ea quando noluisse, id sea explicari forensibus, id pro prima latine deserunt. 
+                                            Te exerci pertinacia per, has autem posidonium ad, ut fugit dicant imperdiet his. 
+                                            Et zril lucilius vel. Vocent veritus appareat te his, doctus accumsan forensibus 
+                                            eu est, mundi altera cu cum.
+                                        </p>
+                                        <p>
+                                            Rebum iriure pertinax ut mea, sit ne animal vivendo. Eruditi neglegentur eam ea.
+                                            No sit tantas adipisci. Duo id delicata dissentias reformidans, eos hinc tamquam 
+                                            placerat id.
+                                        </p>
+                                        <p>
+                                            Corpora explicari nam at, recteque intellegam temporibus in eum, te ius recusabo 
+                                            argumentum repudiandae. An ius eius perfecto neglegentur.
+                                        </p>
+                                        <div class="clearfix"></div>
+                                        <div id="singleBlogSlider" class="slide carousel singleBlogSlider" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <div class="itemSingle">
+                                                        <img src="images/blog/sb1.jpg" alt=""/>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="itemSingle">
+                                                        <img src="images/blog/sb2.jpg" alt=""/>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="itemSingle">
+                                                        <img src="images/blog/sb3.jpg" alt=""/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="left carousel-control" href="#singleBlogSlider" role="button" data-slide="prev">
+                                                <img src="images/slLeft.png" alt=""/>
+                                            </a>
+                                            <a class="right carousel-control" href="#singleBlogSlider" role="button" data-slide="next">
+                                                <img src="images/slRight.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="copys text-center">An per veniam libris conclusionemque, usu an paulo rebum omittam laboramus et pro voluptatibus. </div>
+                                        <p class="quotes">
+                                            The emphasis is put upon the fact this rejection does not have to depend on anything else, that it is sure of itself.
+                                        </p>
+                                        <p>
+                                            Everti doctus est et, ei vis habemus tibique. Scriptorem theophrastus in sit.
+                                            Stet gubergren ex per, denique consetetur cotidieque ad nec. Ex usu ullamcorper
+                                            definitionem, ipsum munere complectitur cum cu, no eam quod mnesarchum omittantur.
+                                        </p>
+                                        <p>
+                                            Elit facer constituto ex vis, te vide perpetua rationibus nec. Nec iriure commune 
+                                            fastidii ei, ius erat suscipit inimicus te, nec ei enim mucius. His ea 
+                                            quando noluisse, id sea explicari forensibus, id pro prima latine deserunt. 
+                                            Te exerci pertinacia per, has autem posidonium ad, ut fugit dicant imperdiet his. 
+                                            Et zril lucilius vel. Vocent veritus appareat te his, doctus accumsan forensibus eu 
+                                            est, mundi altera cu cum.
+                                        </p>
+                                        <p>
+                                            Rebum iriure pertinax ut mea, sit ne animal vivendo. Eruditi neglegentur eam ea. No sit
+                                            tantas adipisci. Duo id delicata dissentias reformidans, eos hinc tamquam placerat id.
+                                        </p>
+                                        <p>
+                                            Corpora explicari nam at, recteque intellegam temporibus in eum, te ius recusabo 
+                                            argumentum repudiandae. An ius eius perfecto neglegentur. Assum admodum oportere 
+                                            his ut, eos ex iisque vidisse splendide, putant viderer nominavi duo ea. Has id 
+                                            dicit postea, cum eu mollis option senserit.
+                                        </p>
+                                        <p>
+                                            Et vix facilis epicuri, an vis nihil vivendo splendide. Ut tacimates sensibus 
+                                            reprehendunt pro. Mel te sale maiestatis, alii hinc pro ut. An per veniam libris
+                                            conclusionemque, usu an paulo voluptatibus. Admodum 
+                                        </p>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="relatedPosts">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-sm-12 col-md-10 col-md-offset-1 col-lg-offset-2">
+                                <div class="relatedPostsHolder">
+                                    <h1>Related Articles</h1>
+                                    <div class="asowl">
+                                        <div id="articlesSlider_1" class="articlesSlider owl-carousel">
+                                            <div class="col-lg-12">
+                                                <div class="singleBlog2 text-center">
+                                                    <div class="sbHeader">
+                                                        <h4 class="title"><a href="single_blog.html">Unless otherwise , services featured</a></h4>
+                                                    </div>
+                                                    <div class="sbMeta">
+                                                        <div class="loader"></div>
+                                                        <div class="sbCats"><a href="#">Web Design</a></div>
+                                                        <div class="sbAuth">
+                                                            <a href="single_blog.html"><img alt="" src="images/blog/1.jpg"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <div class="sbFooter">
+                                                        <a class="pull-left" href="#"><i class="fa fa-calendar"></i>07 May</a>
+                                                        <a class="pull-right sbflast" href="#"><i class="fa fa-comment-o"></i>03</a>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="singleBlog2 text-center">
+                                                    <div class="sbHeader">
+                                                        <h4 class="title"><a href="single_blog.html">Unless otherwise , services featured</a></h4>
+                                                    </div>
+                                                    <div class="sbMeta">
+                                                        <div class="loader"></div>
+                                                        <div class="sbCats"><a href="#">Web Design</a></div>
+                                                        <div class="sbAuth">
+                                                            <a href="single_blog.html"><img alt="" src="images/blog/1.jpg"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <div class="sbFooter">
+                                                        <a class="pull-left" href="#"><i class="fa fa-calendar"></i>07 May</a>
+                                                        <a class="pull-right sbflast" href="#"><i class="fa fa-comment-o"></i>03</a>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="singleBlog2 text-center">
+                                                    <div class="sbHeader">
+                                                        <h4 class="title"><a href="single_blog.html">The Things we Lost in the Fire.</a></h4>
+                                                    </div>
+                                                    <div class="sbMeta">
+                                                        <div class="loader"></div>
+                                                        <div class="sbCats"><a href="#">Web Design</a></div>
+                                                        <div class="sbAuth">
+                                                            <a href="single_blog.html"><img alt="" src="images/blog/1.jpg"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <div class="sbFooter">
+                                                        <a class="pull-left" href="#"><i class="fa fa-calendar"></i>07 May</a>
+                                                        <a class="pull-right sbflast" href="#"><i class="fa fa-comment-o"></i>03</a>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="singleBlog2 text-center">
+                                                    <div class="sbHeader">
+                                                        <h4 class="title"><a href="single_blog.html">The Things we Lost in the Fire.</a></h4>
+                                                    </div>
+                                                    <div class="sbMeta">
+                                                        <div class="loader"></div>
+                                                        <div class="sbCats"><a href="#">Web Design</a></div>
+                                                        <div class="sbAuth">
+                                                            <a href="single_blog.html"><img alt="" src="images/blog/1.jpg"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <div class="sbFooter">
+                                                        <a class="pull-left" href="#"><i class="fa fa-calendar"></i>07 May</a>
+                                                        <a class="pull-right sbflast" href="#"><i class="fa fa-comment-o"></i>03</a>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owlControlla preva"><img src="images/rlLeft.png" alt=""/></div>
+                                        <div class="owlControlla nexta"><img src="images/rlRight.png" alt=""/></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="commentSection">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-6">
+                                        <h3 class="commentHeading">11 Comments</h3>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-6">
+                                        <div class="socialShare text-right">
+                                            <span>share</span>
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ol class="commentLista">
+                                    <li>
+                                        <div class="singleCommenta">
+                                            <img src="images/blog/co1.png" alt=""/>
+                                            <div class="comDetailsa">
+                                                <span>07 June, 2014</span>
+                                                <h3>John Williams <a href="#">Replay</a></h3>
+                                                <div class="comContenta">
+                                                    Vivamus ultrices ullamcorper tortor, nec pharetra massa sollicitudin nec. 
+                                                    Integer posuere lacus et blandit pulvinar. Ut id fermentum purus. Etiam 
+                                                    eget lacinia libero.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="singleCommenta">
+                                            <img src="images/blog/co2.png" alt=""/>
+                                            <div class="comDetailsa">
+                                                <span>07 June, 2014</span>
+                                                <h3>John Williams <a href="#">Replay</a></h3>
+                                                <div class="comContenta">
+                                                    Vivamus ultrices ullamcorper tortor, nec pharetra massa sollicitudin nec. 
+                                                    Integer posuere lacus et blandit pulvinar. Ut id fermentum purus. Etiam 
+                                                    eget lacinia libero.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="childrenns">
+                                            <li>
+                                                <div class="singleCommenta">
+                                                    <img src="images/blog/co3.png" alt=""/>
+                                                    <div class="comDetailsa">
+                                                        <span>07 June, 2014</span>
+                                                        <h3>John Williams <a href="#">Replay</a></h3>
+                                                        <div class="comContenta">
+                                                            Vivamus ultrices ullamcorper tortor, nec pharetra massa sollicitudin nec. 
+                                                            Integer posuere lacus et blandit pulvinar. Ut id fermentum purus. Etiam 
+                                                            eget lacinia libero.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="singleCommenta">
+                                            <img src="images/blog/co4.png" alt=""/>
+                                            <div class="comDetailsa">
+                                                <span>07 June, 2014</span>
+                                                <h3>John Williams <a href="#">Replay</a></h3>
+                                                <div class="comContenta">
+                                                    Vivamus ultrices ullamcorper tortor, nec pharetra massa sollicitudin nec. 
+                                                    Integer posuere lacus et blandit pulvinar. Ut id fermentum purus. Etiam 
+                                                    eget lacinia libero.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                                <div class="clearfix"></div>
+                                <div class="commentForms">
+                                    <h3 class="commentsTitls">
+                                        Leave a reply
+                                    </h3>
+                                    <form method="post" action="#" class="comForms">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <input type="text" name="name" class="com_inputa" placeholder="NAME:"/>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <input type="text" name="name" class="com_inputa" placeholder="EMAIL:"/>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <input type="text" name="name" class="com_inputa" placeholder="WEBSITE:"/>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <textarea class="com_textarea" name="com_textarea" placeholder="COMMENT:"></textarea>
+                                                <input type="submit" class="ms_btn" value="Submit Reply"/>
+                                            </div>
+                                        </div>
+
+
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <footer class="footer" id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-4">
+                            <div class="footerNav">
+                                <div class="socialMenu">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 hidden-xs">
+                            <div class="footerMenu">
+                                <ul>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 hidden-xs">
+                            <div class="copyRights">
+                                All &COPY; rights 2016.
+                            </div>
+                        </div>
+                        <div class="col-xs-8 hidden-lg hidden-md hidden-sm">
+                            <div class="footerXs">
+                                <div class="footerMenu">
+                                    <ul>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Terms</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                    </ul>
+                                </div>
+                                <div class="copyRights">
+                                    All &COPY; rights 2016.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+
+
+
+        <!-- Include All JS -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/mixer.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBHok7k4VSqgRzjM3g9q12LVoSVKvO4gAo"></script>
+        <script type="text/javascript" src="js/gmaps.js"></script>
+        <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+        <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
+        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+        <script type="text/javascript" src="js/theme.js"></script>
+    </body>
+</html>

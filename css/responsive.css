@@ -1,0 +1,406 @@
+/*
+  Theme Name: MYSELF - HTML5 responsive VCard Template
+  Theme URL:  http://themewar.com/html/myself
+  Author: ThemeWar
+  Author URI: http://themewar.com
+  Description: HTML5 responsive VCard Template
+  Version: 1.0
+*/
+
+@media(min-width: 1440px) and (max-width: 2465px){
+    .sections{
+        padding-top: 80px;
+    }
+    .single-post .body_wraper{
+        margin: 20px;
+    }
+    .relatedPosts{
+        padding: 50px 0;
+    }
+    .single-post .body_wraper {
+        margin: 35px;
+    }
+    .header.fixedHeader {
+        width: 96.4%;
+    }
+
+}
+
+@media(min-width:767px) and (max-width: 1280px){
+    .comonSections {
+        height: 80vh;
+        top: 85px;
+    }
+}
+
+
+@media(min-width:1200px) and (max-width:1440px){
+    .body_wraper{
+        top: 25px;
+        left: 25px;
+        right: 25px;
+        bottom: 25px;
+    }
+    .preloader .left{
+        left: 25px;
+        top: 25px;
+        bottom: 25px;
+        height: 92.3vh;
+    }
+    .preloader .right {
+        right: 25px;
+        top: 25px;
+        bottom: 25px;
+        height: 92.3vh;
+    }
+    .single-post .body_wraper{
+        margin: 25px;
+    }
+    .sections{
+        padding: 80px 0 80px;
+    }
+    .comonSections {
+        height: 67vh;
+        top: 80px;
+    }
+}
+@media(min-width:991px) and (max-width:1024px){
+    .body_wraper{
+        left: 20px;
+        top: 20px;
+        bottom: 20px;
+        right: 20px
+    }
+    .preloader .left{
+        left: 20px;
+        top: 20px;
+        bottom: 20px;
+    }
+    .preloader .right {
+        right: 20px;
+        top: 20px;
+        bottom: 20px;
+    }
+    .mainMenu ul li{
+        margin-right: 14px;
+    }
+    .phonep{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .sliderElement h1{
+        font-size: 42px;
+    }
+    .myInfos,
+    .SkillArea{
+        padding-right: 15px;
+    }
+    .myInfos{
+        margin-bottom: 65px;
+    }
+    .singleInt{
+        border-bottom: thin solid #fff;
+    }
+    .sections{
+        padding-top: 80px;
+    }
+    .single-post .body_wraper{
+        margin: 20px;
+    }
+    .relatedPosts{
+        padding: 50px 0;
+    }
+
+}
+
+@media(min-width:767px) and (max-width:990px){
+    .body_wraper{
+        left: 20px;
+        top: 20px;
+        bottom: 20px;
+        right: 20px
+    }
+    .preloader .left{
+        left: 20px;
+        top: 20px;
+        bottom: 20px;
+    }
+    .preloader .right {
+        right: 20px;
+        top: 20px;
+        bottom: 20px;
+    }
+    .container {
+        width: 730px;
+    }
+    .mainMenu ul li{
+        margin-right: 14px;
+    }
+    .phonep{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .sliderElement h1{
+        font-size: 42px;
+    }
+    .myInfos,
+    .SkillArea{
+        padding-right: 15px;
+    }
+    .myInfos{
+        margin-bottom: 65px;
+    }
+    .singleInt{
+        border-bottom: thin solid #fff;
+    }
+    .sections{
+        padding-top: 80px;
+    }
+    .single-post .body_wraper{
+        margin: 20px;
+    }
+    .relatedPosts{
+        padding: 50px 0;
+    }
+
+
+}
+
+
+@media(min-width:320px) and (max-width: 767px){
+    .body_wraper{
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    .preloader .left{
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .preloader .right {
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .comonSections {
+        height: 70vh;
+        top: 80px;
+    }
+    #about .commonSidebar,
+    #resume .commonSidebar,
+    #portfolio .commonSidebar,
+    #contact .commonSidebar,
+    #blog .commonSidebar{
+        margin-top: 50px;
+    }
+    .accessMenu {
+        padding: 0;
+        position: absolute;
+        right: 15px;
+        top: -50px;
+    }
+    .sections{
+        padding: 70px 0 70px;
+    }
+
+    .socialMenu,
+    .footerMenu,
+    .copyRights{
+        padding: 0;   
+    }
+    .socialMenu a{
+        margin-right: 5px;
+    }
+    .footerMenu ul li{
+        margin-right: 4px;
+    }
+    .copyRights{
+        text-align: left;
+        margin-top: 10px;
+    }
+    .footer {
+        min-height: 0;
+        padding: 20px 0;
+    }
+    .mainMenu ul{
+        display: none;
+    }
+    .mainMenu{
+        padding: 0;
+        position: absolute;
+    }
+    .logo{
+        text-align: center;
+    }
+    .mCSB_inside > .mCSB_container{
+        margin-right: 0;
+    }
+
+    .header{
+        box-shadow: 1px 2px 5px rgba(0, 0, 0, .09);
+        z-index: 99;
+    }
+    .single-post .header{
+        box-shadow: none;
+    } 
+    .mobileMenu{
+        width: 14px;
+        height: 10px;
+        position: relative;
+        text-align: left;
+        line-height: 1px;
+        top: -40px;
+        cursor: pointer;
+    }
+    .mobileMenu span{
+        display: block;
+        height: 1px;
+        width: 10px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #f23030;
+        transition: all ease 500ms;
+        -moz-transition: all ease 500ms;
+        -webkit-transition: all ease 500ms;
+        -ms-transition: all ease 500ms;
+        -o-transition: all ease 500ms;
+    }
+    .mobileMenu span:first-child{
+        width: 100%;
+    }
+    .mobileMenu span:nth-child(2){
+        top: 4px;
+    }
+    .mobileMenu span:nth-child(3){
+        top: 8px;
+    }
+    .mobileMenu a:hover{
+        color: #000;
+    }
+    .mobileMenu a:hover span{
+        background: #000;
+    }
+    .mainMenu ul {
+        background: #fff;
+        display: none;
+        position: relative;
+        top: -8px;
+        width: 100vw;
+        left: -15px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .mainMenu ul li{
+        margin-right: 3px;
+        margin-bottom: 8px;
+    }
+
+    .sliderElement h1{
+        font-size: 28px;
+    }
+    .sliderElement p{
+        min-width: 250px;
+        font-size: 14px;
+    }
+    .myselfs{
+        margin-bottom: 30px;
+    }
+    .sliderElement{
+        padding-left: 10px;
+    }
+
+    .fixedSidebar{
+        width: 270px;
+        z-index: 999;
+    }
+
+    .myInfos{
+        margin-bottom: 30px;
+    }
+    .singleInt{
+        border-bottom: thin solid #fff;
+    }
+    .resume-out{
+        padding-left: 0;
+    }
+    .singleBlog2{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .contactForm{
+        width: 100%;
+    }
+
+    .single-post .body_wraper{
+        margin: 0;
+    }
+
+    .singleHeader h2{
+        line-height: 1;
+    }
+    .authInfo {
+        text-align: center;
+    }
+    .singleInfos{
+        text-align: center;
+    }
+    .copys {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .relatedPosts{
+        padding: 50px 0;
+    }
+    .articlesSlider{
+        padding: 0;
+    }
+    .singleCommenta,
+    .commentLista li ul li{
+        padding-left: 0;
+    }
+    .singleCommenta img{
+        position: relative;
+        top: -10px;
+    }
+    .commentLista li ul li .singleCommenta{
+        padding-left: 10px;
+    }
+
+    .singleBlogPageHeader{
+        min-height: 400px;
+    }
+    .singleHeader{
+        padding-top: 170px;
+    }
+    .excerpts,
+    .details p.quotes{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .singleHeader h2{
+        font-size: 30px;
+    }
+
+    .mainMenu ul li{
+        display: block;
+    }
+    .preloader .right, 
+    .preloader .left{
+        height: 100%;
+    }
+    .header.fixedHeader{
+        width: 100%;
+    }
+}
+
+@media(min-width:360px) and (max-width:480px){
+    .singleHeader{
+        padding-top: 100px;
+    }
+
+}
+
+
